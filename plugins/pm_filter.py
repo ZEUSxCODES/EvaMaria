@@ -86,7 +86,8 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"[{get_size(file.file_size)}] {file.file_name}", 
+                    url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
             for file in files
@@ -95,15 +96,25 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"[{get_size(file.file_size)}] {file.file_name}", 
+                    url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
                 InlineKeyboardButton(
-                    text=f"{get_size(file.file_size)}",
-                    callback_data=f'files_#{file.file_id}',
+                    text=f"[{get_size(file.file_size)}] {file.file_name}", 
+                    url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
             for file in files
         ]
+
+    btn.insert(0,
+        [
+            InlineKeyboardButton('❓ʜᴏᴡ', url='https://graph.org/𝙃𝙤𝙬-𝙏𝙤-𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙-𝘼𝙣𝙮-𝙈𝙤𝙫𝙞𝙚-𝙁𝙧𝙤𝙢-𝘾𝙖𝙥𝙩𝙖𝙞𝙣-𝘼𝙪𝙩𝙤𝙗𝙤𝙩-08-22'),
+            InlineKeyboardButton('🆘ꜱᴏꜱ', url='https://t.me/Anmol0700'),
+            InlineKeyboardButton('😈ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
+            InlineKeyboardButton('🔗ʙᴀᴄᴋᴜᴘ', url='https://t.me/Pros_Movies_Empire'),
+        ]
+    )
 
     if 0 < offset <= 10:
         off_set = 0
@@ -668,20 +679,16 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-    else:
-        btn = [
-            [
-                InlineKeyboardButton(
-                    text=f"{file.file_name}",
-                    callback_data=f'{pre}#{file.file_id}',
-                ),
-                InlineKeyboardButton(
-                    text=f"{get_size(file.file_size)}",
-                    callback_data=f'{pre}#{file.file_id}',
-                ),
-            ]
-            for file in files
+
+    btn.insert(0,
+        [
+            InlineKeyboardButton('❓ʜᴏᴡ', url='https://graph.org/𝙃𝙤𝙬-𝙏𝙤-𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙-𝘼𝙣𝙮-𝙈𝙤𝙫𝙞𝙚-𝙁𝙧𝙤𝙢-𝘾𝙖𝙥𝙩𝙖𝙞𝙣-𝘼𝙪𝙩𝙤𝙗𝙤𝙩-08-22'),
+            InlineKeyboardButton('🆘ꜱᴏꜱ', url='https://t.me/Anmol0700'),
+            InlineKeyboardButton('😈ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
+            InlineKeyboardButton('🔗ʙᴀᴄᴋᴜᴘ', url='https://t.me/Pros_Movies_Empire'),
         ]
+    )
+
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
