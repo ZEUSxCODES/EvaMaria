@@ -107,7 +107,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton('❓ʜᴏᴡ', url='https://graph.org/𝙃𝙤𝙬-𝙏𝙤-𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙-𝘼𝙣𝙮-𝙈𝙤𝙫𝙞𝙚-𝙁𝙧𝙤𝙢-𝘾𝙖𝙥𝙩𝙖𝙞𝙣-𝘼𝙪𝙩𝙤𝙗𝙤𝙩-08-22'),
+            InlineKeyboardButton('❓ʜᴏᴡ', url='https://graph.org/How-To-Download-Movies-From-FilmNest-Bots-02-20'),
             InlineKeyboardButton('🆘ꜱᴏꜱ', url='https://t.me/Anmol0700'),
             InlineKeyboardButton('😈ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
             InlineKeyboardButton('🔗ʙᴀᴄᴋᴜᴘ', url='https://t.me/Film_Nest'),
@@ -680,7 +680,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton('❓ʜᴏᴡ', url='https://graph.org/𝙃𝙤𝙬-𝙏𝙤-𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙-𝘼𝙣𝙮-𝙈𝙤𝙫𝙞𝙚-𝙁𝙧𝙤𝙢-𝘾𝙖𝙥𝙩𝙖𝙞𝙣-𝘼𝙪𝙩𝙤𝙗𝙤𝙩-08-22'),
+            InlineKeyboardButton('❓ʜᴏᴡ', url='https://graph.org/How-To-Download-Movies-From-FilmNest-Bots-02-20'),
             InlineKeyboardButton('🆘ꜱᴏꜱ', url='https://t.me/Anmol0700'),
             InlineKeyboardButton('😈ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
             InlineKeyboardButton('🔗ʙᴀᴄᴋᴜᴘ', url='https://t.me/Film_Nest'),
