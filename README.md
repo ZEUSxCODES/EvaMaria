@@ -2,7 +2,7 @@
   <img src="assets/logo.jpg" alt="FilmNest Logo">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>FilmNest Bot</b>
 </h1>
 
 
