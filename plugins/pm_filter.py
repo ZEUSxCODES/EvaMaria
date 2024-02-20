@@ -105,15 +105,6 @@ async def next_page(bot, query):
             for file in files
         ]
 
-    btn.insert(0,
-        [
-            InlineKeyboardButton('❓ʜᴏᴡ', url='https://graph.org/How-To-Download-Movies-From-FilmNest-Bots-02-20'),
-            InlineKeyboardButton('🆘ꜱᴏꜱ', url='https://t.me/Anmol0700'),
-            InlineKeyboardButton('😈ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
-            InlineKeyboardButton('🔗ʙᴀᴄᴋᴜᴘ', url='https://t.me/Film_Nest'),
-        ]
-    )
-
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
@@ -677,16 +668,6 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-
-    btn.append(0,
-        [
-            InlineKeyboardButton('❓ʜᴏᴡ', url='https://graph.org/How-To-Download-Movies-From-FilmNest-Bots-02-20'),
-            InlineKeyboardButton('🆘ꜱᴏꜱ', url='https://t.me/Anmol0700'),
-            InlineKeyboardButton('😈ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
-            InlineKeyboardButton('🔗ʙᴀᴄᴋᴜᴘ', url='https://t.me/Film_Nest'),
-        ]
-    )
-
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
