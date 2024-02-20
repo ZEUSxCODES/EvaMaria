@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Eva Maria Logo">
+  <img src="assets/logo.jpg" alt="FilmNest Logo">
 </p>
 <h1 align="center">
   <b>Eva Maria Bot</b>
 </h1>
 
 
-[![Stars](https://img.shields.io/github/stars/EvamariaTG/EvaMaria?style=flat-square&color=yellow)](https://github.com/EvamariaTG/EvaMaria/stargazers)
-[![Forks](https://img.shields.io/github/forks/EvamariaTG/EvaMaria?style=flat-square&color=orange)](https://github.com/EvamariaTG/EvaMaria/fork)
-[![Size](https://img.shields.io/github/repo-size/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/EvamariaTG/EvaMaria/)   
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/EvamariaTG/EvaMaria)   
-[![Contributors](https://img.shields.io/github/contributors/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/EvamariaTG/EvaMaria/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/EvamariaTG/EvaMaria/blob/main/LICENSE)
-[![Sparkline](https://stars.medv.io/EvamariaTG/EvaMaria.svg)](https://stars.medv.io/EvamariaTG/EvaMaria)
+[![Stars](https://img.shields.io/github/stars/ZEUSxCODES/EvaMaria?style=flat-square&color=yellow)](https://github.com/ZEUSxCODES/EvaMaria/stargazers)
+[![Forks](https://img.shields.io/github/forks/ZEUSxCODES/EvaMaria?style=flat-square&color=orange)](https://github.com/ZEUSxCODES/EvaMaria/fork)
+[![Size](https://img.shields.io/github/repo-size/ZEUSxCODES/EvaMaria?style=flat-square&color=green)](https://github.com/ZEUSxCODES/EvaMaria/)   
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ZEUSxCODES/EvaMaria)   
+[![Contributors](https://img.shields.io/github/contributors/ZEUSxCODES/EvaMaria?style=flat-square&color=green)](https://github.com/ZEUSxCODES/EvaMaria/graphs/contributors)
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/ZEUSxCODES/EvaMaria/blob/main/LICENSE)
+[![Sparkline](https://stars.medv.io/ZEUSxCODES/EvaMaria.svg)](https://stars.medv.io/ZEUSxCODES/EvaMaria)
 
 
 ## Features
@@ -46,7 +46,7 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/EvamariaTG/evamaria/blob/master/info.py) for more
+* Check [info.py](https://github.com/ZEUSxCODES/evamaria/blob/master/info.py) for more
 
 
 ## Deploy
