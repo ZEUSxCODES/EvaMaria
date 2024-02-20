@@ -678,7 +678,7 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
 
-    btn.insert(0,
+    btn.append(0,
         [
             InlineKeyboardButton('❓ʜᴏᴡ', url='https://graph.org/How-To-Download-Movies-From-FilmNest-Bots-02-20'),
             InlineKeyboardButton('🆘ꜱᴏꜱ', url='https://t.me/Anmol0700'),
