@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="FilmNest Logo">
+  <img src="assets/log.jpg" alt="FilmNest Logo">
 </p>
 <h1 align="center">
   <b>FilmNest Bot</b>
