@@ -107,9 +107,9 @@ async def next_page(bot, query):
         
     btn.insert(0,
         [
-            InlineKeyboardButton('❓Hᴏᴡ', url='https://telegra.ph/H%E1%B4%8F%E1%B4%A1-T%E1%B4%8F-07-13'),
-            InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/GlitchAssistantBot'),
-            InlineKeyboardButton('🤖ʙᴏᴛs', url='https://t.me/robo_glitch'),
+            InlineKeyboardButton('❓Hᴏᴡ', url='https://graph.org/How-To-Download-Movies-From-FilmNest-Bots-02-20'),
+            InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/Anmol0700'),
+            InlineKeyboardButton('😈ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
             InlineKeyboardButton('🔗ᴄʜɴʟ', url='https://t.me/futurebackups/603'),
         ]
     )
@@ -694,9 +694,9 @@ async def auto_filter(client, msg, spoll=False):
         
     btn.insert(0,
         [
-            InlineKeyboardButton('❓Hᴏᴡ', url='https://telegra.ph/H%E1%B4%8F%E1%B4%A1-T%E1%B4%8F-07-13'),
-            InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/GlitchAssistantBot'),
-            InlineKeyboardButton('🤖ʙᴏᴛs', url='https://t.me/robo_glitch'),
+            InlineKeyboardButton('❓Hᴏᴡ', url='https://graph.org/How-To-Download-Movies-From-FilmNest-Bots-02-20'),
+            InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/Anmol0700'),
+            InlineKeyboardButton('😈ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
             InlineKeyboardButton('🔗ᴄʜɴʟ', url='https://t.me/futurebackups/603'),
         ]
     )
