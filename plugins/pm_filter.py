@@ -110,7 +110,7 @@ async def next_page(bot, query):
             InlineKeyboardButton('❓Hᴏᴡ', url='https://graph.org/How-To-Download-Movies-From-FilmNest-Bots-02-20'),
             InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/Anmol0700'),
             InlineKeyboardButton('😈ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
-            InlineKeyboardButton('🔗ᴄʜɴʟ', url='https://t.me/futurebackups/603'),
+            InlineKeyboardButton('🔗ᴄʜɴʟ', url='https://t.me/Film_Nest'),
         ]
     )
 
@@ -697,7 +697,7 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton('❓Hᴏᴡ', url='https://graph.org/How-To-Download-Movies-From-FilmNest-Bots-02-20'),
             InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/Anmol0700'),
             InlineKeyboardButton('😈ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
-            InlineKeyboardButton('🔗ᴄʜɴʟ', url='https://t.me/futurebackups/603'),
+            InlineKeyboardButton('🔗ᴄʜɴʟ', url='https://t.me/Film_Nest'),
         ]
     )
         
