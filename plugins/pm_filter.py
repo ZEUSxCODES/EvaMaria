@@ -104,6 +104,15 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
+        
+    btn.insert(0,
+        [
+            InlineKeyboardButton('❓Hᴏᴡ', url='https://telegra.ph/H%E1%B4%8F%E1%B4%A1-T%E1%B4%8F-07-13'),
+            InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/GlitchAssistantBot'),
+            InlineKeyboardButton('🤖ʙᴏᴛs', url='https://t.me/robo_glitch'),
+            InlineKeyboardButton('🔗ᴄʜɴʟ', url='https://t.me/futurebackups/603'),
+        ]
+    )
 
     if 0 < offset <= 10:
         off_set = 0
@@ -682,7 +691,16 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-
+        
+    btn.insert(0,
+        [
+            InlineKeyboardButton('❓Hᴏᴡ', url='https://telegra.ph/H%E1%B4%8F%E1%B4%A1-T%E1%B4%8F-07-13'),
+            InlineKeyboardButton('🆘Hᴇʟᴘ', url='https://t.me/GlitchAssistantBot'),
+            InlineKeyboardButton('🤖ʙᴏᴛs', url='https://t.me/robo_glitch'),
+            InlineKeyboardButton('🔗ᴄʜɴʟ', url='https://t.me/futurebackups/603'),
+        ]
+    )
+        
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
         BUTTONS[key] = search
