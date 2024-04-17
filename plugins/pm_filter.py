@@ -1,8 +1,9 @@
-# Kanged From @TroJanZheX
+import random
 import asyncio
 import re
 import ast
 import math
+from pyrogram.types import Message
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script
 import pyrogram
@@ -29,6 +30,7 @@ logger.setLevel(logging.ERROR)
 BUTTONS = {}
 SPELL_CHECK = {}
 FILTER_MODE = {}
+REACTIONS = ["🔥", "❤️", "😍", "⚡"]
 
 @Client.on_message(filters.command('autofilter'))
 async def fil_mod(client, message): 
@@ -53,11 +55,14 @@ async def fil_mod(client, message):
           await m.edit("USE :- /autofilter on 𝙾𝚁 /autofilter off")
 
 @Client.on_message((filters.group | filters.private) & filters.text & filters.incoming)
-async def give_filter(client, message):
+async def give_filter(client, message: Message):
+    # Add a reaction to each incoming message with a random emoji
+    await message.react(emoji=random.choice(REACTIONS))
+
+    # Proceed with manual and automatic filters
     k = await manual_filters(client, message)
     if k == False:
         await auto_filter(client, message)
-
 
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
