@@ -17,6 +17,7 @@ import base64
 logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
+REACTIONS = ["🔥", "❤️", "😍", "⚡"]
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
@@ -51,6 +52,7 @@ async def start(client, message):
             InlineKeyboardButton('Aʙᴏᴜᴛ ✨', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await message.react(emoji=random.choice(REACTIONS))
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -97,6 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('Aʙᴏᴜᴛ ✨', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await message.react(emoji=random.choice(REACTIONS))
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
